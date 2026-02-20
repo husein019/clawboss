@@ -4,3 +4,11 @@ credentials/
 agents/main/agent/auth-profiles.json
 agents/main/agent/auth.json
 logs/
+.venv/
+.openclaw/
+media/
+memory/
+agents/
+notion.html
+__pycache__/
+*.log
