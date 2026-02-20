@@ -1,0 +1,6 @@
+cd ~/.openclaw
+git init
+git remote add origin git@github.com:husein019/clawboss.git
+git add .
+git commit -m "initial setup"
+git push -u origin main
