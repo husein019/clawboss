@@ -1,0 +1,6 @@
+workspace/
+.env
+credentials/
+agents/main/agent/auth-profiles.json
+agents/main/agent/auth.json
+logs/

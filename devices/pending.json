@@ -1,0 +1,20 @@
+{
+  "1f2cc492-262e-44d6-a685-2abb36cca216": {
+    "requestId": "1f2cc492-262e-44d6-a685-2abb36cca216",
+    "deviceId": "ce58840dd58410f8d81b7328c243f86efc46fa93852116ca807c4de9c0eaa0ad",
+    "publicKey": "FNBYfkqoB_LnDTUswXAWDDsgYhZpp5qC_d50GbNp8vw",
+    "platform": "linux",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read"
+    ],
+    "silent": false,
+    "isRepair": true,
+    "ts": 1771579210830
+  }
+}
