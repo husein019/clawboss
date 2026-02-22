@@ -30,7 +30,15 @@
       "subagents": {
         "maxConcurrent": 8
       }
-    }
+    },
+    "list": [
+      {
+        "id": "fn-solar",
+        "name": "FN Solar Engineer",
+        "workspace": "~/.openclaw/workspace/workspace-fn-solar",
+        "model": "openai/gpt-5.1-codex"
+      }
+    ]
   },
   "messages": {
     "ackReactionScope": "group-mentions"
@@ -46,7 +54,12 @@
       "dmPolicy": "pairing",
       "botToken": "8581478136:AAGF8BMh6gdZsNHSTA7glRbZitmR8fSRASs",
       "groupPolicy": "allowlist",
-      "streamMode": "partial"
+      "streamMode": "partial",
+      "accounts": {
+        "victor": {
+          "botToken": "8250626534:AAFpNdc2isZIJembC5JJoe5suhmBIDTh9x4"
+        }
+      }
     }
   },
   "gateway": {
@@ -62,5 +75,14 @@
         "enabled": true
       }
     }
-  }
+  },
+  "bindings": [
+    {
+      "agentId": "fn-solar",
+      "match": {
+        "channel": "telegram",
+        "accountId": "victor"
+      }
+    }
+  ]
 }
