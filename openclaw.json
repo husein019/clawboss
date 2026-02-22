@@ -33,6 +33,13 @@
     },
     "list": [
       {
+        "id": "main",
+        "default": true,
+        "name": "Main Agent",
+        "workspace": "~/.openclaw/workspace",
+        "model": "openai/gpt-5.1-codex"
+      },
+      {
         "id": "fn-solar",
         "name": "FN Solar Engineer",
         "workspace": "~/.openclaw/workspace/workspace-fn-solar",
@@ -56,8 +63,11 @@
       "groupPolicy": "allowlist",
       "streamMode": "partial",
       "accounts": {
-        "victor": {
+        "agent2": {
           "botToken": "8250626534:AAFpNdc2isZIJembC5JJoe5suhmBIDTh9x4"
+        },
+        "default": {
+          "botToken": "8581478136:AAGF8BMh6gdZsNHSTA7glRbZitmR8fSRASs"
         }
       }
     }
@@ -81,7 +91,7 @@
       "agentId": "fn-solar",
       "match": {
         "channel": "telegram",
-        "accountId": "victor"
+        "accountId": "agent2"
       }
     }
   ]
